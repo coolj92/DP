@@ -1,0 +1,58 @@
+# Copyright (C) 2022 directorist-gallery
+# This file is distributed under the same license as the directorist-gallery package.
+msgid ""
+msgstr ""
+"Project-Id-Version: directorist-gallery\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: sovware <support@sovware.com>\n"
+"POT-Creation-Date: 2022-08-22 04:04+0000\n"
+"Project-Id-Version: undefined\n"
+"Report-Msgid-Bugs-To: support@sovware.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/gallery_image_upload.php:60
+msgid "Featured"
+msgstr ""
+
+#: templates/gallery_image_upload.php:61
+msgid "Drag & Drop"
+msgstr ""
+
+#: templates/gallery_image_upload.php:62
+msgid "or"
+msgstr ""
+
+#: templates/gallery_image_upload.php:64
+msgid "Add More"
+msgstr ""
+
+#: templates/gallery_image_upload.php:67
+msgid "Max limit for total file size is __DT__"
+msgstr ""
+
+#: templates/gallery_image_upload.php:70
+msgid "Max limit for total file is __DT__"
+msgstr ""
+
+#: templates/gallery_image_upload.php:74
+msgid "Maximum allowed file size is __DT__"
+msgstr ""
+
+#: templates/gallery_image_upload.php:79
+msgid "Unlimited images with this plan!"
+msgstr ""
+
+#: templates/gallery_image_upload.php:79
+msgid "Maximum __DT__ files are allowed"
+msgstr ""
+
+#: templates/gallery_image_upload.php:79
+msgid "Maximum __DT__ file is allowed"
+msgstr ""

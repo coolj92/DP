@@ -1,0 +1,85 @@
+#directorist-draggable-faq-container {
+    margin-bottom: 16px;
+}
+
+.directorist-btn.directorist-btn-add-faq {
+    font-size: 15px !important;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    line-height: 2.95 !important;
+    background-color: #EEF1F3 !important;
+}
+
+.directorist-faq-box {
+    margin: -10px;
+}
+
+.directorist-faq-box__question,
+.directorist-faq-box__answer,
+.directorist-faq-box__action {
+    margin: 10px;
+    width: 100%;
+}
+
+.directorist-faq-box__action {
+    flex: 1;
+    flex-direction: column;
+}
+
+.directorist-faq-box__action .directorist-btn-faq-remove {
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+/* Faq Accordion */
+.directorist-faq-accordion__single:not(:last-child) {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e3e6ef;
+    padding-bottom: 1rem;
+}
+
+.directorist-faq-accordion__single .directorist-faq-accordion__title {
+    font-size: 14px;
+    margin: 0;
+}
+
+.directorist-faq-accordion__single .directorist-faq-accordion__title a {
+    font-weight: 500;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #272b41;
+}
+
+.directorist-faq-accordion__single .directorist-faq-accordion__title a:before {
+    content: '\f067';
+    font-family: "Line Awesome Free";
+    transition: all .3s ease;
+    margin-right: .4rem;
+    font-size: .93333rem;
+    position: relative;
+    top: -2px;
+    font-weight: 900;
+}
+
+.directorist-faq-accordion__single .directorist-faq-accordion__title a.directorist-active:before {
+    content: '\f068';
+}
+
+.directorist-faq-remove-confirm-js .directorist-modal__content .directorist-modal__body .directorist-modal-alert-text .directorist-modal-alert-text__title {
+    font-size: 25px;
+    font-weight: 500;
+}
+.directorist-faq-remove-confirm-js .directorist-modal__content .directorist-modal__body .directorist-modal-alert-text .directorist-modal-alert-text__details {
+    font-size: 14px;
+}
+.directorist-faq-remove-confirm-js .directorist-modal__content .directorist-modal__footer .directorist-btn {
+    border: none;
+}
+
+/* Responsive Css */
+
+@media only screen and (max-width: 575px) {}
+
+@media (min-width: 768px) {}

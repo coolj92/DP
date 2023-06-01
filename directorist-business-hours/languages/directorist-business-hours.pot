@@ -1,0 +1,217 @@
+# Copyright (C) 2022 wpWax
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Directorist - Business Hour 2.7.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/directorist-business-hours\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-17T02:42:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: directorist-business-hours\n"
+
+#. Plugin Name of the plugin
+#: widgets/class-widget.php:17
+msgid "Directorist - Business Hour"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://directorist.com/plugins/directorist-business-hours"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is an add-on for Directorist Plugin. You can display business hour by this extension."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpWax"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpwax.com"
+msgstr ""
+
+#: bd-business-hour.php:86
+msgid "Open 24/7 in a week"
+msgstr ""
+
+#: bd-business-hour.php:139
+#: bd-business-hour.php:157
+#: bd-business-hour.php:203
+#: templates/show_hours.php:6
+#: widgets/class-widget.php:55
+#: widgets/class-widget.php:93
+msgid "Business Hour"
+msgstr ""
+
+#: bd-business-hour.php:140
+msgid "Allow users add and display business hour for a listing."
+msgstr ""
+
+#: bd-business-hour.php:146
+msgid "Open Badge Text"
+msgstr ""
+
+#: bd-business-hour.php:147
+#: inc/helper-functions.php:91
+#: inc/helper-functions.php:277
+msgid "Open"
+msgstr ""
+
+#: bd-business-hour.php:151
+msgid "Closed Badge Text"
+msgstr ""
+
+#: bd-business-hour.php:152
+#: inc/helper-functions.php:555
+#: inc/helper-functions.php:559
+msgid "Closed"
+msgstr ""
+
+#: bd-business-hour.php:156
+msgid "Title for Business Hour"
+msgstr ""
+
+#: bd-business-hour.php:161
+msgid "24/7 Type Listing Description"
+msgstr ""
+
+#: bd-business-hour.php:162
+msgid "You can set the text for listing that is open 24 hours a day and 7 days a week here."
+msgstr ""
+
+#: bd-business-hour.php:163
+#: templates/show_hours.php:5
+#: widgets/class-widget.php:47
+msgid "Open 24/7"
+msgstr ""
+
+#: bd-business-hour.php:166
+msgid "Time Format"
+msgstr ""
+
+#: bd-business-hour.php:172
+msgid "12 Hours"
+msgstr ""
+
+#: bd-business-hour.php:176
+msgid "24 Hours"
+msgstr ""
+
+#: bd-business-hour.php:181
+msgid "Default Timezone"
+msgstr ""
+
+#: bd-business-hour.php:183
+msgid "America/New_York"
+msgstr ""
+
+#: bd-business-hour.php:187
+msgid "Display Business Hours on Single Listing"
+msgstr ""
+
+#: bd-business-hour.php:192
+msgid "Cache Plugin Compatibility"
+msgstr ""
+
+#: bd-business-hour.php:193
+msgid "If enabled Business hours are served using Ajax and prevents caching."
+msgstr ""
+
+#: bd-business-hour.php:207
+msgid "Business Hour Settings"
+msgstr ""
+
+#: bd-business-hour.php:208
+msgid "You can Customize all the settings of Business Hour Extension here"
+msgstr ""
+
+#: bd-business-hour.php:277
+#: bd-business-hour.php:289
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: config.php:22
+msgid "You do not have the right to access this file directly"
+msgstr ""
+
+#: inc/helper-functions.php:91
+msgid "Close"
+msgstr ""
+
+#: inc/helper-functions.php:483
+#: templates/business-hour-fields.php:341
+msgid "Saturday"
+msgstr ""
+
+#: inc/helper-functions.php:484
+#: templates/business-hour-fields.php:399
+msgid "Sunday"
+msgstr ""
+
+#: inc/helper-functions.php:485
+#: templates/business-hour-fields.php:47
+msgid "Monday"
+msgstr ""
+
+#: inc/helper-functions.php:486
+#: templates/business-hour-fields.php:105
+msgid "Tuesday"
+msgstr ""
+
+#: inc/helper-functions.php:487
+#: templates/business-hour-fields.php:166
+msgid "Wednesday"
+msgstr ""
+
+#: inc/helper-functions.php:488
+#: templates/business-hour-fields.php:226
+msgid "Thursday"
+msgstr ""
+
+#: inc/helper-functions.php:489
+#: templates/business-hour-fields.php:284
+msgid "Friday"
+msgstr ""
+
+#: inc/helper-functions.php:567
+msgid "Open 24h"
+msgstr ""
+
+#: templates/business-hour-fields.php:23
+msgid "Open 24 hours 7 days"
+msgstr ""
+
+#: templates/business-hour-fields.php:30
+msgid "Hide business hours"
+msgstr ""
+
+#: templates/business-hour-fields.php:36
+msgid "Open for Selected Hours"
+msgstr ""
+
+#: templates/business-hour-fields.php:97
+#: templates/business-hour-fields.php:158
+#: templates/business-hour-fields.php:218
+#: templates/business-hour-fields.php:276
+#: templates/business-hour-fields.php:333
+#: templates/business-hour-fields.php:391
+#: templates/business-hour-fields.php:449
+msgid "Open 24 hours"
+msgstr ""
+
+#: templates/business-hour-fields.php:457
+msgid "Timezone"
+msgstr ""
+
+#: widgets/class-widget.php:13
+msgid "You can show business hour on the sidebar of every single listing ( listing details page ) by this widget "
+msgstr ""
+
+#: widgets/class-widget.php:96
+msgid "Title:"
+msgstr ""

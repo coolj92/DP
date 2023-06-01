@@ -1,0 +1,129 @@
+/* Directorist Directory linking card styles */
+.directorist-linking-card {
+  padding: 15px 10px;
+}
+
+.directorist-linking-card__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #E9EBF4;
+  padding: 3px;
+}
+
+.directorist-linking-card__img {
+  padding: 8px;
+}
+
+.directorist-linking-card__img a {
+  display: block;
+}
+
+.directorist-linking-card__img a img {
+  max-width: 160px;
+}
+
+.directorist-linking-card__details {
+  padding: 8px;
+  flex: 1;
+}
+
+.directorist-linking-card__title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #272b41;
+  margin: 0 0 2px;
+}
+
+.directorist-linking-card__title:before, .directorist-linking-card__title:after {
+  content: none;
+}
+
+.directorist-linking-card__category {
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.directorist-linking-card__category a {
+  font-size: 14px;
+  color: #9299B8;
+  text-decoration: none !important;
+}
+
+.directorist-linking-card__reviews {
+  line-height: 1;
+}
+
+.directorist-linking-card__reviews span {
+  font-size: 15px;
+  color: #adb3ce;
+}
+
+.directorist-linking-card__reviews span .fas {
+  color: #fa8b0c;
+}
+
+.directorist-linking-card__reviews__total {
+  font-size: 12px;
+  color: #adb3ce;
+}
+
+.directorist-linking-content__slider .slick-slide > div {
+  margin: -7px -10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.directorist-linking-content__action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.directorist-linking-content__slider-navigation {
+  display: flex;
+  align-items: center;
+  margin: 0 -4px;
+}
+
+.directorist-linking-content__slider-nav {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #E9EBF4;
+  border-radius: 50%;
+  color: #666D92;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  margin: 0 4px;
+  transition: 0.3s ease;
+}
+.directorist-linking-content__slider-nav .directorist-icon-mask::after {
+  width: 13px;
+  height: 13px;
+  background-color: #767792;
+}
+.directorist-linking-content__slider-nav:hover .directorist-icon-mask::after, 
+.directorist-linking-content__slider-nav:focus .directorist-icon-mask::after {
+  background-color: #fff;
+}
+
+.directorist-linking-content__slider-nav:hover, .directorist-linking-content__slider-nav:focus {
+  color: #fff;
+  background: #444752 !important;
+  border-color: #444752 !important;
+}
+
+.directorist-linking-content__all-link {
+  text-decoration: none !important;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+.directorist-linking-content__all-link:hover {
+  color: #444752;
+}

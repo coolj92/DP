@@ -1,0 +1,797 @@
+
+
+.directorist-bh-wrap .directorist-bh-extras .directorist-checkbox .directorist-checkbox__label,
+.directorist-bh-wrap .directorist-bh-extras .directorist-radio .directorist-radio__label {
+  color: #1A1B29;
+}
+
+.directorist-bh-wrap .directorist-bh-extras__active-hour {
+  margin-bottom: 12px;
+}
+
+.directorist-bh-wrap .directorist-bh-extras__disabled {
+  margin-bottom: 12px;
+}
+
+/* business hour tab */
+.dbh-tab__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 -5px;
+}
+
+.directorist-bh-wrap .dbh-tab__nav__item {
+  text-decoration: none;
+  display: block;
+  border: 1px solid #e3e6ef;
+  padding: 8px 15px;
+  margin: 0 5px;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.directorist-bh-wrap .dbh-tab__nav__item.active {
+  background: none;
+  color: #444752;
+  border-color: #444752;
+}
+
+.dbh-tab-panel {
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  height: 0;
+}
+
+.dbh-tab-panel.active {
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+}
+
+.dbh-hours-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px -10px 0;
+}
+
+.dbh-checkbox {
+  margin: 0 10px;
+}
+
+.dbh-checkbox label {
+  margin: 0 !important;
+}
+
+.dbh-select-hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 -10px;
+}
+
+.dbh-select-hours--list {
+  margin-top: 28px;
+}
+
+.directorist-bh-wrap .dbh-select-from {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 10px;
+  position: relative;
+}
+
+.directorist-bh-wrap .dbh-select-from label {
+  display: block;
+  font-weight: 500;
+}
+
+.directorist-bh-wrap .dbh-select-from input {
+  width: 100%;
+  height: 46px;
+  padding: 0 15px;
+}
+
+.directorist-bh-wrap .dbh-select-hours+.dbh-select-hours {
+  margin-top: 13px;
+}
+
+.directorist-bh-wrap .dbh-select-hours .dbh-remove {
+  margin: 0 10px;
+  display: block;
+  height: 46px;
+  border: 0 none;
+  background: #444752;
+  color: #fff;
+  border-radius: 3px;
+  width: 46px;
+}
+
+.directorist-bh-wrap .dbh-default-times {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 79px;
+  border: 1px solid #e3e6ef;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  z-index: 9999;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.directorist-bh-wrap .dbh-default-times li a {
+  display: block;
+  padding: 7px 15px;
+  border-bottom: 1px solid #e3e6ef;
+}
+
+.directorist-bh-wrap .dbh-add-hours {
+  margin-top: 20px;
+}
+
+.directorist-bh-wrap .directorist-bh-wrap__tab {
+  margin-top: 15px;
+}
+
+#business_hours_activated .input label span {
+  background: #008EC2;
+  width: 133px;
+  position: relative;
+  border-radius: 3px;
+  margin-top: 0;
+}
+
+#business_hours_activated .input label span:before {
+  content: 'Activate';
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 48%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+
+#business_hours_activated+#success_msg {
+  color: #4caf50;
+  padding-left: 15px;
+}
+
+#business_hours_activated+#error_msg {
+  color: #DC143C;
+  padding-left: 15px;
+}
+
+#business_hours_deactivated .input label span {
+  background: #d05157;
+  width: 182px;
+  position: relative;
+  border-radius: 3px;
+  margin-top: 0;
+  padding: 18px;
+}
+
+#business_hours_deactivated .input label span:before {
+  content: 'Deactivate';
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 48%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+
+#business_hours_deactivated+#success_msg {
+  color: #4caf50;
+  padding-left: 15px;
+}
+
+#business_hours_deactivated+#error_msg {
+  color: #DC143C;
+  padding-left: 15px;
+}
+
+/* Business Hour Time Selection Style */
+.directorist-bh-selection {
+  display: none;
+  margin: 20px 0 0px;
+  padding: 18px 0 12px;
+  border-top: 1px solid #EFF1F6;
+  border-bottom: 1px solid #EFF1F6;
+}
+
+.directorist-bh-selection.directorist-bh-show {
+  display: block;
+  max-width: 750px;
+}
+
+.directorist-bh-selection .directorist-select .select2-selection__arrow{
+  height: 100% !important;
+  right: 5px !important;
+  top: 0 !important;
+}
+.directorist-bh-selection .directorist-select .select2-selection__arrow:after{
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  font-size: 13px !important;
+}
+.directorist-bh-selection .directorist-select .select2-selection__arrow b{
+  display: none;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 82px;
+  margin: -12px -20px;
+}
+@media (max-width: 991px){
+  .directorist-bh-dayzone .directorist-bh-dayzone__single{
+    flex-wrap: wrap;
+  }
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice {
+  display: none;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--hour-selection {
+  display: none;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single.directorist-enable-hour-time-selection .directorist-bh-dayzone__single--choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single.directorist-enable-hour-time-selection .directorist-bh-dayzone__single--choice .directorist-bh-dayzone__single--choice-wrapper:not(:first-child) {
+  flex: 0 0 100%;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single.directorist-enable-hour-time-selection .directorist-bh-dayzone__single--hour-selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single.directorist-full-time .directorist-bh-dayzone__single--choice {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--swtich {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--swtich .directorist-switch label {
+  color: #51526E !important;
+  font-weight: 400 !important;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single.directorist-enable-hour-time-selection .directorist-bh-dayzone__single--swtich .directorist-switch label {
+  color: #1A1B29 !important;
+  font-weight: 500 !important;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin: -7.5px;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-selects {
+  margin: 7.5px;
+  min-width: 110px;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-selects .directorist-select__label .directorist-select__label--text {
+  font-size: 14px;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-selects .directorist-select__dropdown--inner ul li .directorist-select-dropdown-text {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+  color: #5a5f7d;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--hour-selection {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--swtich,
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice,
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--hour-selection {
+  margin: 12px 15px;
+}
+
+.directorist-bh-timezone {
+  margin: 20px 0 14px 0;
+}
+.directorist-bh-timezone .select2-selection__arrow,
+.directorist-bh-timezone .select2-selection__clear{
+  display: none !important;
+}
+.directorist-bh-timezone .select2.select2-container .select2-selection--single .select2-selection__arrow{
+  top: 11px;
+}
+.directorist-bh-timezone .select2.select2-container .select2-selection--single .select2-selection__clear{
+  font-size: 18px;
+}
+.directorist-selects select {
+  min-height: 42px;
+  padding: 0 15px !important;
+  border-radius: 4px;
+  color: #7a82a6;
+  border: 1px solid #eff1f6;
+}
+
+.directorist-selects select:focus{
+  outline: none;
+}
+
+.directorist-bh-timezone label {
+  display: block;
+  color: #202428;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.directorist-bh-timezone{}
+
+.directorist-select .select2-container.select2-container--default {
+  width: 100% !important;
+}
+
+.directorist-search-form-box .directorist-search-field .directorist-selects select {
+  border: 0 none;
+  width: 100%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+/* .directorist-search-form-box .directorist-search-field .directorist-select .select2-container--default .directorist-select2-addons-area {
+  display: none;
+}
+.directorist-search-form-box .directorist-select .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
+  display: none;
+} */
+
+.directorist-select .select2-container.select2-container--default .select2-selection--single {
+  height: 44px;
+  border-color: #ececec !important;
+}
+
+.directorist-select .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 42px;
+}
+
+.directorist-add-listing-form .directorist-bh-wrap input[type="checkbox"]:disabled+.directorist-checkbox__label {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+
+.directorist-add-listing-form .directorist-bh-wrap .directorist-checkbox.directorist-checkbox-theme-admin input[type=checkbox]+.directorist-checkbox__label:before {
+  top: 4px !important;
+  left: 4px !important;
+}
+
+/* Legacy Suupport */
+
+.atbd_content_module {
+  border: 1px solid #e3e6ef;
+  margin-bottom: 35px;
+  background: #ffffff;
+  text-align: left;
+}
+
+.atbd_content_module .atbd_content_module__tittle_area {
+  border-bottom: 1px solid #e3e6ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.atbd_content_module .atbd_content_module__tittle_area .atbd_area_title h4,
+.directorist-business-hour-module .atbd_area_title h4 {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0;
+  font-size: 18px;
+}
+
+.atbd_widget .directorist-badge.directorist-badge-open,
+.atbd_widget .directorist-badge.directorist-badge-close,
+.directorist-business-hour-module .directorist-badge.directorist-badge-open,
+.directorist-business-hour-module .directorist-badge.directorist-badge-close,
+.directorist-listing-single .directorist-listing-single__content .directorist-listing-single__info .directorist-info-item.directorist-badge-open,
+.directorist-listing-single .directorist-listing-single__content .directorist-listing-single__info .directorist-info-item.directorist-badge-close,
+.directorist-listing-single .directorist-listing-single__content .directorist-listing-single__info .directorist-listing-single__info--top .directorist-badge.directorist-badge-open,
+.directorist-listing-single .directorist-listing-single__content .directorist-listing-single__info .directorist-listing-single__info--top .directorist-badge.directorist-badge-close  {
+  padding: 2px 8px;
+}
+.directorist-listing-single .directorist-listing-single__content .directorist-listing-single__info .directorist-listing-single__info--top .directorist-badge.directorist-badge-open {
+  color: #fff;
+  background-color: #00AC17;
+}
+.directorist-listing-single .directorist-badge.directorist-badge-open,
+.directorist-listing-single .directorist-badge.directorist-badge-close {
+  padding: 0 8px;
+}
+.atbd_widget .directorist-badge.directorist-badge-close,
+.directorist-business-hour-module .directorist-badge.directorist-badge-close,
+.directorist-listing-single .directorist-listing-single__content .directorist-listing-single__info .directorist-listing-single__info--top .directorist-badge.directorist-badge-close {
+  color: #fff;
+  background: #f80718;
+}
+
+.directorist-single-listing-header .directorist-listing-single-quickinfo .directorist-listing-single__info .directorist-badge.directorist-badge-open,
+.directorist-single-listing-header .directorist-listing-single-quickinfo .directorist-listing-single__info .directorist-badge.directorist-badge-close {
+  top: unset;
+  padding: 2px 8px;
+}
+
+
+.atbd_content_module .atbdb_content_module_contents {
+  padding: 30px;
+}
+
+.directorist-open-hours {
+  font-size: 18px;
+  font-weight: 500;
+}
+.directorist-open-hours p{
+  margin-bottom: 0;
+}
+
+.directorist-open-hours li {
+  font-weight: 400;
+}
+
+.directorist-open-hours li:not(:last-child){
+  border-bottom: 1px solid #e3e6ef !important;
+}
+.directorist-open-hours li .directorist-business-day,
+.directorist-open-hours li .directorist-business-day {
+  display: block;
+  font-weight: 600;
+  color: #272b41;
+  margin-bottom: 5px;
+}
+
+.directorist-open-hours li:not(:last-child){
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.directorist-open-hours__open {
+  color: #614b4b;
+}
+
+.directorist-open-hours__today .directorist-time-single.directorist-open-hours__open_slot {
+  color: #00ac17;
+}
+.directorist-open-hours__closed.directorist-open-hours__today .directorist-business-day  {
+  color: #f80718;
+}
+
+.directorist-open-hours__time {
+  color: #7a82a6;
+}
+
+.directorist-open-hours__today .directorist-open-hours__time > span.time {
+  color: #00ac17;
+}
+
+.directory_open_hours .directorist-time-single + .directorist-time-single,
+.atbd_open_close_time .directorist-time-single + .directorist-time-single {
+  margin-top: 12px;
+}
+
+.directory_open_hours .directorist-time-single span{
+  color: #614b4b;
+}
+
+.directorist-single-wrapper .atbdb_content_module_contents .atbd_directory_open_hours ul {
+  margin-bottom: -10px !important;
+}
+
+.directorist-single-wrapper .atbdb_content_module_contents .atbd_directory_open_hours .atbd_open_close_time span {
+  color: #7a82a6;
+}
+
+.directorist-bh-dayzone__single--choice-wrapper {
+  align-items: center;
+}
+@media (max-width: 991px){
+  .directorist-bh-dayzone__single--choice-wrapper{
+    flex-wrap: wrap;
+  }
+  .directorist-add-listing-wrapper .directorist-bh-dayzone__single--choice-wrapper{
+    flex-wrap: nowrap;
+  }
+}
+
+.directorist-select-copy,
+.directorist-select-add {
+  margin: 7.5px;
+}
+
+.directorist-bh-dayzone__single--choice .directorist-select-add{
+  order: 1;
+}
+
+/* Business Hour Widget Style */
+.widget.atbd_widget .directorist-open-hours{
+  padding: 20px 30px;
+}
+.widget.atbd_widget .directorist-open-hours ul li{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1299px) {
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--swtich,
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice,
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--hour-selection{
+    margin: 12px 8px;
+  }
+
+  .directorist-bh-dayzone__single--choice-wrapper .directorist-btn{
+    padding: 0 14px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .directorist-bh-dayzone .directorist-bh-dayzone__single{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .directorist-single-wrapper .directorist-details-info-wrap .directorist-business-hour-module .directorist-open-hours ul li{
+    flex: 0 0 50%;
+  }
+
+  .widget.atbd_widget .directorist-open-hours ul li{
+    flex-direction: column;
+  }
+
+  /* Legacy Support */
+  .directorist-single-wrapper .directorist-business-hour-module .directorist-open-hours ul li{
+    flex: 0 0 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .directorist-bh-dayzone .directorist-bh-dayzone__single {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0;
+  }
+
+  .directorist-bh-dayzone .directorist-bh-dayzone__single:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--swtich,
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice,
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--hour-selection {
+    margin: 6px 0;
+  }
+
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice {
+    margin: 0 -7.5px;
+  }
+  .widget.atbd_widget .directorist-open-hours ul li{
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .directorist-single-wrapper .directorist-details-info-wrap .directorist-business-hour-module .directorist-open-hours ul li{
+    flex: 0 0 100%;
+  }
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-select{
+    min-width: 100px;
+  }
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-select-copy .directorist-btn{
+    padding: 0 12px;
+  }
+
+  /* Legacy Support */
+  .directorist-single-wrapper .directorist-business-hour-module .directorist-open-hours ul li{
+    flex: 0 0 100%;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice-wrapper{
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-select-add{
+    margin-top: 20px;
+  }
+
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--swtich{
+    margin-bottom: 20px;
+  }
+
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice{
+    width: 100%;
+  }
+  .directorist-bh-dayzone .directorist-bh-dayzone__single.directorist-enable-hour-time-selection .directorist-bh-dayzone__single--choice{
+    align-items: flex-start;
+  }
+  .directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-bh-dayzone__single--choice .directorist-selects select{
+    width: 100%;
+  }
+  .directorist-bh-dayzone .directorist-bh-dayzone__single:not(:last-child){
+    margin-bottom: 25px;
+  }
+}
+
+.directorist-search-form-wrap.directorist-with-search-border .directorist-search-form-top .open_now > label {
+  display: none;
+}
+.directorist-search-contents .directorist-search-form-top .open_now {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-width: 200px;
+  margin: 5px 0;
+  padding-bottom: 0;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now:not(:last-child) {
+  border-right: 1px solid #eff1f6;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .directorist-form-element {
+  border: 0 none;
+  background-color: transparent;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .directorist-selects .directorist-select__label {
+  border: 0 none;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now > label {
+  display: none;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .wp-picker-container .wp-picker-input-wrap label {
+  display: none;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .directorist-search-tags {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 15px;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .directorist-search-tags .directorist-checkbox {
+  margin-bottom: 10px;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .directorist-range-slider-wrap {
+  padding: 10px 15px;
+  min-width: 220px;
+}
+
+.directorist-search-contents .directorist-search-form-top .open_now .directorist-btn-ml {
+  font-size: 14px;
+  color: #7a82a6;
+  text-decoration: none;
+}
+.directorist-bh-dayzone .directorist-bh-dayzone__single .directorist-select2-dropdown-close{
+  display: none;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  min-height: 40px;
+}
+ 
+.directorist-sidebar .atbd_widget .default-ad-search .check-btn .directorist-icon-mask:after{
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  display: block;
+  border: 0 none;
+}
+
+.directorist-sidebar .atbd_widget .default-ad-search .check-btn label input:checked + span .directorist-icon-mask:after,
+.btn-checkbox label input:checked+span .directorist-icon-mask:after{
+  background-color: #fff;
+}
+
+/* Search Form CSS */
+.direcorist-search-field-business_hours .check-btn label span .directorist-icon-mask:after {
+  display: block;
+  padding: 0;
+  border: none;
+  width: 15px;
+  height: 15px;
+} 
+.direcorist-search-field-business_hours .check-btn .btn-checkbox input[type="checkbox"]:checked::before{
+  display: none;
+}

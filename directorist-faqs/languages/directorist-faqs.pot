@@ -1,0 +1,230 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"POT-Creation-Date: 2021-02-28 13:21+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: config.php:23
+msgid "You do not have the right to access this file directly"
+msgstr ""
+
+#: directorist-faqs.php:97
+msgid "Enable FAQs"
+msgstr ""
+
+#: directorist-faqs.php:98
+msgid "Allow users add FAQs for a listing."
+msgstr ""
+
+#: directorist-faqs.php:103
+msgid "Answer Field Type"
+msgstr ""
+
+#: directorist-faqs.php:109
+msgid "WP Editor"
+msgstr ""
+
+#: directorist-faqs.php:113
+msgid "Textarea"
+msgstr ""
+
+#: directorist-faqs.php:123 directorist-faqs.php:373
+msgid "FAQs"
+msgstr ""
+
+#: directorist-faqs.php:127
+msgid "FAQs Settings"
+msgstr ""
+
+#: directorist-faqs.php:149 directorist-faqs.php:162
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: directorist-faqs.php:186 directorist-faqs.php:240
+#: directorist-faqs.php:280 directorist-faqs.php:334
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: directorist-faqs.php:194 directorist-faqs.php:288
+msgid "Response not found!"
+msgstr ""
+
+#: directorist-faqs.php:203 directorist-faqs.php:297
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: directorist-faqs.php:211 directorist-faqs.php:305
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: directorist-faqs.php:216 directorist-faqs.php:310
+msgid "Invalid license."
+msgstr ""
+
+#: directorist-faqs.php:223 directorist-faqs.php:317
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: directorist-faqs.php:229 directorist-faqs.php:323
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: directorist-faqs.php:235 directorist-faqs.php:329
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: directorist-faqs.php:247
+msgid "License deactivated successfully!"
+msgstr ""
+
+#: directorist-faqs.php:253 directorist-faqs.php:347
+msgid "License not found!"
+msgstr ""
+
+#: directorist-faqs.php:341
+msgid "License activated successfully!"
+msgstr ""
+
+#: directorist-faqs.php:360 directorist-faqs.php:367
+msgid "Action"
+msgstr ""
+
+#: directorist-faqs.php:374
+msgid "You can active your FAQs extension here."
+msgstr ""
+
+#: directorist-faqs.php:379
+msgid "License"
+msgstr ""
+
+#: directorist-faqs.php:380
+msgid "Enter your FAQs extension license"
+msgstr ""
+
+#: directorist-faqs.php:431
+msgid "Add FAQs for the Listing"
+msgstr ""
+
+#: directorist-faqs.php:492
+msgid "Are you sure"
+msgstr ""
+
+#: directorist-faqs.php:493
+msgid "Do you really want to remove this FAQ!"
+msgstr ""
+
+#: directorist-faqs.php:494
+msgid "Yes, Delete it!"
+msgstr ""
+
+#: directorist-faqs.php:495
+msgid "Deleted!"
+msgstr ""
+
+#: directorist-faqs.php:496
+msgid "Select an icon"
+msgstr ""
+
+#: directorist-faqs.php:497
+msgid "Select or Upload Slider Image"
+msgstr ""
+
+#: directorist-faqs.php:498
+msgid "Select Category Image"
+msgstr ""
+
+#: directorist-faqs.php:499
+msgid "Use this Image"
+msgstr ""
+
+#: directorist-faqs.php:500
+msgid "Select Preview Image"
+msgstr ""
+
+#: directorist-faqs.php:501
+msgid "Insert Preview Image"
+msgstr ""
+
+#: directorist-faqs.php:544
+msgid "Listings FAQs"
+msgstr ""
+
+#: inc/EDD_SL_Plugin_Updater.php:228
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details"
+"%4$s."
+msgstr ""
+
+#: inc/EDD_SL_Plugin_Updater.php:236
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details"
+"%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: inc/EDD_SL_Plugin_Updater.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/EDD_SL_Plugin_Updater.php:474
+msgid "Error"
+msgstr ""
+
+#: templates/add-faq.php:16 templates/ajax/faqs-ajax.php:12
+msgid "Question"
+msgstr ""
+
+#: templates/add-faq.php:30 templates/ajax/faqs-ajax.php:20
+#: templates/ajax/faqs-ajax.php:23
+msgid "Answer.."
+msgstr ""
+
+#: templates/add-faq.php:48 templates/ajax/faqs-ajax.php:41
+msgid "Remove this item"
+msgstr ""
+
+#: templates/add-faq.php:60
+msgid "Add New"
+msgstr ""
+
+#: widgets/class-widget.php:12
+msgid ""
+"Let user to shoe FAQs on the sidebar of every single listing ( listing "
+"details page ) by this widget "
+msgstr ""
+
+#: widgets/class-widget.php:16
+msgid "Directorist - FAQs"
+msgstr ""
+
+#: widgets/class-widget.php:41 widgets/class-widget.php:77
+msgid "Listing FAQs"
+msgstr ""
+
+#: widgets/class-widget.php:80
+msgid "Title:"
+msgstr ""
