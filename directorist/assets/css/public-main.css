@@ -4504,7 +4504,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 
 .plasmaSlider__body {
-  padding-top: 52.25%;
+  padding-top: 66% !important;
   position: relative;
   top: 0;
   bottom: 0;
