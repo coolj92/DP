@@ -568,7 +568,7 @@ class Directorist_Listings {
 				}
 
 				break;
-
+		
 			case 'title-desc':
 				if ( $this->has_featured ) {
 					$args['meta_key'] = '_featured';
@@ -582,7 +582,34 @@ class Directorist_Listings {
 				}
 
 				break;
+			// CUSTOM CODE: add Last Name ordering option #custom-text-2 is the input field id
+			case 'last-name-asc':
+				if ( $this->has_featured ) {
+					$args['meta_key'] = '_featured';
+					$args['orderby']  = array(
+						'meta_value_num' => 'DESC',
+						'custom-text-2'  => 'ASC',
+					);
+				} else {
+					$args['orderby'] = 'custom-text-2';
+					$args['order']   = 'ASC';
+				}
 
+				break;
+			case 'last-name-desc':
+				if ( $this->has_featured ) {
+					$args['meta_key'] = '_featured';
+					$args['orderby']  = array(
+						'meta_value_num' => 'DESC',
+						'custom-text-2'  => 'DESC',
+					);
+				} else {
+					$args['orderby'] = 'custom-text-2';
+					$args['order']   = 'DESC';
+				}
+
+				break;
+			// end Last Name ordering option
 			case 'date-asc':
 				if ( $this->has_featured ) {
 					$args['meta_key'] = '_featured';

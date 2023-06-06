@@ -191,7 +191,7 @@ class Directorist_All_Listing extends Custom_Widget_Base {
 					'title' => __( 'Title', 'directorist' ),
 					'date'  => __( 'Date', 'directorist' ),
 					'price' => __( 'Price', 'directorist' ),
-					'Last Name' => __( 'Last Name', 'directorist' ),
+					'custom-text-2' => __( 'Last Name', 'directorist' ),
 				),
 				'default' => 'date',
 			),
