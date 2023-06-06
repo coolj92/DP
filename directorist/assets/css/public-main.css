@@ -4642,11 +4642,13 @@ img.plasmaSlider__bgImgBlur {
 .plasmaSlider__bgImg.plasmaSlider__contain {
   -o-object-fit: contain;
   object-fit: contain;
+  object-position: top !important;
 }
 
 .plasmaSlider__bgImg.plasmaSlider__cover {
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: top !important;
 }
 
 .plasmaSlider__sliderItem {
