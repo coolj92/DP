@@ -436,6 +436,11 @@ class Directorist_Listings {
 		} else {
 			$current_order = atbdp_get_listings_current_order( $this->orderby . '-' . $this->order );
 		}
+		if ( 'last-name-asc' === $this->orderby) {
+			$current_order = atbdp_get_listings_current_order( $this->orderby );
+		} else {
+			$current_order = atbdp_get_listings_current_order( $this->orderby . '-' . $this->order );
+		}
 
 		$meta_queries['directory_type'] = array(
 			'key'     => '_directory_type',
@@ -600,7 +605,7 @@ class Directorist_Listings {
 				if ( $this->has_featured ) {
 					$args['meta_key'] = '_featured';
 					$args['orderby']  = array(
-						'meta_value_num' => 'DESC',
+						'meta_value_num' => 'ASC',
 						'custom-text-2'  => 'DESC',
 					);
 				} else {

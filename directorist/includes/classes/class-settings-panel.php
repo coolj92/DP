@@ -1698,6 +1698,14 @@ Please remember that your order may be canceled if you do not make your payment 
                             'value' => 'z_a',
                             'label' => __('Z to A (title)', 'directorist'),
                         ],
+                        [ // custom code
+                            'value' => 'a_z', //custom code
+                            'label' => __('A to Z (Last Name)', 'directorist'), // custom code
+                        ], //custom code
+                        [ // custom code
+                            'value' => 'z_a', //custom code
+                            'label' => __('Z to A (Last Name)', 'directorist'), // custom code
+                        ], //custom code
                         [
                             'value' => 'latest',
                             'label' => __('Latest listings', 'directorist'),
@@ -1818,6 +1826,10 @@ Please remember that your order may be canceled if you do not make your payment 
                             'value' => 'title',
                             'label' => __('Title', 'directorist'),
                        ],
+                       [ //custom code
+                            'value' => 'Last Name', //custom code
+                            'label' => __('Last Name', 'directorist'), //custom code
+                          ], //custom code
                        [
                             'value' => 'date',
                             'label' => __('Date', 'directorist'),
@@ -3140,6 +3152,14 @@ Please remember that your order may be canceled if you do not make your payment 
                             'value' => 'z_a',
                             'label' => __('Z to A (title)', 'directorist'),
                         ],
+                        [ //custom code for sorting by last name jun 8
+                            'value' => 'a_z',
+                            'label' => __('A to Z (last name)', 'directorist'),
+                        ],
+                        [
+                            'value' => 'z_a',
+                            'label' => __('Z to A (last name)', 'directorist'),
+                        ], // end custom code
                         [
                             'value' => 'latest',
                             'label' => __('Latest listings', 'directorist'),
@@ -3174,6 +3194,10 @@ Please remember that your order may be canceled if you do not make your payment 
                         [
                             'value' => 'title',
                             'label' => __('Title', 'directorist'),
+                        ],
+                        [ //custom code
+                            'value' => 'Last Name', //custom code
+                            'label' => __('Last Name', 'directorist'),//custom code
                         ],
                         [
                             'value' => 'date',

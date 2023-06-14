@@ -191,9 +191,9 @@ class Directorist_All_Listing extends Custom_Widget_Base {
 					'title' => __( 'Title', 'directorist' ),
 					'date'  => __( 'Date', 'directorist' ),
 					'price' => __( 'Price', 'directorist' ),
-					'custom-text-2' => __( 'Last Name', 'directorist' ),
+					'custom-text-2' => __( 'Last Name', 'directorist' ), // custom code june 8
 				),
-				'default' => 'date',
+				'default' => 'title',
 			),
 			array(
 				'type'    => Controls_Manager::SELECT,

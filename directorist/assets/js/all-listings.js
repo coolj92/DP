@@ -2040,7 +2040,6 @@ window.addEventListener('DOMContentLoaded', function () {
     });
   } // remvoe toggle when click outside
 
-
   document.body.addEventListener('click', function (e) {
     if (e.target.getAttribute('data-drop-toggle') !== 'atbd-toggle') {
       clickCount = 0;

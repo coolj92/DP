@@ -103,6 +103,8 @@ class Directorist_Search_Result extends Custom_Widget_Base {
 				'label'   => __( 'Order by', 'directorist' ),
 				'options' => array(
 					'title' => __( 'Title', 'directorist' ),
+					// add last name here custom code june 8
+					'custom-text-2' => __( 'Last Name', 'directorist' ),
 					'date'  => __( 'Date', 'directorist' ),
 					'price' => __( 'Price', 'directorist' ),
 				),

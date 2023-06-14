@@ -89,6 +89,7 @@ class Directorist_Location extends Custom_Widget_Base {
 				'label'   => __( 'Order by', 'directorist' ),
 				'options' => array(
 					'title' => __( 'Title', 'directorist' ),
+					'custom-text-2' => __( 'Last Name', 'directorist' ), // custom code june 8
 					'date'  => __( 'Date', 'directorist' ),
 					'price' => __( 'Price', 'directorist' ),
 				),

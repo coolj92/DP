@@ -1531,6 +1531,8 @@ function atbdp_get_listings_orderby_options($sort_by_items)
     $options = array(
         'title-asc' => __("A to Z (title)", 'directorist'),
         'title-desc' => __("Z to A (title)", 'directorist'),
+        'last-name-a-z' => __("A to Z (last name)", 'directorist'), // custom code
+        'last-name-z-a' => __("Z to A (last name)", 'directorist'), //custom code
         'date-desc' => __("Latest listings", 'directorist'),
         'date-asc' => __("Oldest listings", 'directorist'),
         'views-desc' => __("Popular listings", 'directorist'),
@@ -1544,6 +1546,12 @@ function atbdp_get_listings_orderby_options($sort_by_items)
     }
     if (!in_array('z_a', $sort_by_items)) {
         unset($options['title-desc']);
+    }
+    if (!in_array('last_name_a_z', $sort_by_items)) {
+        unset($options['last-name-a-z']);
+    }
+    if (!in_array('last_name_z_a', $sort_by_items)) {
+        unset($options['last-name-z-a']);
     }
     if (!in_array('latest', $sort_by_items)) {
         unset($options['date-desc']);
